@@ -6,6 +6,9 @@ import noUserIcon from "../../assets/img/none-user-icon.png"
 let Users = (props) => {
     if (props.users.length === 0) {
         axios.defaults.withCredentials = true;
+        axios.defaults.headers = {
+            "API-KEY": "fc253b1c-0962-4c3c-bbdd-f6ced18294b8"
+        }
         axios.get("https://social-network.samuraijs.com/api/1.0/users").then(response => {
             props.setUsers(response.data.items)
         })
