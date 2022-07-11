@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://vovachaika.github.io/social-media/",
   "dependencies": {
+    "axios": "^0.27.2",
     "gh-pages": "^4.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
