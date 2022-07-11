@@ -5,6 +5,7 @@ import noUserIcon from "../../assets/img/none-user-icon.png"
 
 let Users = (props) => {
     if (props.users.length === 0) {
+        axios.defaults.withCredentials = true;
         axios.get("https://social-network.samuraijs.com/api/1.0/users").then(response => {
             props.setUsers(response.data.items)
         })
