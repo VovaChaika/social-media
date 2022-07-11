@@ -2,7 +2,7 @@
   "name": "social-media",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vovachaika.github.io/social-media/",
+  "homepage": "https://social-media-tau.vercel.app/",
   "dependencies": {
     "axios": "^0.27.2",
     "gh-pages": "^4.0.0",
